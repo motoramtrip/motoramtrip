@@ -215,6 +215,12 @@
 		margin-top: -14em;
 	}
 
+/* Location */
+	.location {
+		border-radius: 6px 6px 0 0;
+		min-width: 100%;
+		height: 500px;
+	}
 
 /* Container */
 
