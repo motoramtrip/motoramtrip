@@ -25,7 +25,7 @@
 			<h2>MOTORAMTRIP</h2>
 			<p>Aluguer de motos em Lisboa e Almada</p>
 			<ul class="actions special">
-				<li><a href="#" class="button primary">As nossas motas</a></li>
+				<li><a class="button primary" onclick="scrollDown('about');">Sobre nós</a></li>
 				<li><a class="button" onclick="scrollDown('cta');" >Contactos</a></li>
 			</ul>
 		</section>
@@ -49,7 +49,7 @@
 			</section>
 
 			<!-- About -->
-			<section class="box features">
+			<section class="box features" id="about">
 				<header>
 					<h3>Sobre nós</h3>
 					<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
@@ -63,8 +63,19 @@
 			</section>
 
 			<!-- Picture Slideshow -->
-			<section>
-			
+			<section class="box special features" id="bikes">
+				<div class="features-row">
+					<section>
+						<h3>BMW 1250 GS</h3>
+						<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus
+							iaculis accumsan dolore magna aliquam veroeros.</p>
+					</section>
+					<section>
+						<h3>Yamaha FJR1300</h3>
+						<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus
+							iaculis accumsan dolore magna aliquam veroeros.</p>
+					</section>
+				</div>			
 			</section>
 
 			<!-- CTA/Email -->
@@ -97,7 +108,7 @@
 							</div>
 							<div class="col-12">
 								<ul class="actions special">
-									<li><input type="submit" value="Enviar" /></li>
+									<li><input type="submit" value="Enviar"/></li>
 								</ul>
 							</div>
 						</div>
