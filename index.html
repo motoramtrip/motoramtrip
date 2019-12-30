@@ -7,12 +7,124 @@
 		<meta name="google-site-verification" content="OrTmXHP4n31nc6LgykPq175vDuwQqNPrz4qzECvyYJY" />
 		<title>MOTORAMTRIP</title>
 		<meta name="description" content="MOTORAMTRIP - Aluguer de motas Lisboa">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="icons/fontello.css">
-		<link rel="icon" type="image/png" href="icons/favicon.png"/>
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/icons/fontello.css">
+		<link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+		<script src="assets/js/main.js"></script>
 	</head>
-	<body class="soon">
-		<h2> Em construção </h2>
-		<h3> Chegaremos brevemente</h3>
+	<body>
+		<!-- Header -->
+		<header id="header">
+			<h1></h1>
+			<nav id="nav">
+			</nav>
+		</header>
+
+		<!-- Banner/Page Navigatin -->
+		<section id="banner">
+			<h2>MOTORAMTRIP</h2>
+			<p>Aluguer de motos em Lisboa e Almada</p>
+			<ul class="actions special">
+				<li><a class="button primary" onclick="scrollDown('about');">Sobre nós</a></li>
+				<li><a class="button" onclick="scrollDown('cta');" >Contactos</a></li>
+			</ul>
+		</section>
+
+		<!-- Main Section -->
+		<section id="main" class="container">
+
+			<!-- Google Location -->
+			<section class="box special">
+				<header class="major">
+					<h2>Venha nos visitar</h2>
+					<p>Av. Dom Afonso Henriques 13C, 2800-031 Almada </br></br>
+						Estamos abertos de segunda a sexta das 9:30 às 16:00
+					</p>
+					<hr>
+				</header>
+					<iframe class="location"
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3114.5892260670475!2d-9.15600168465598!3d38.68130747960445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1934f080c6904b%3A0xfff8dc56d9cf3a28!2sAv.%20Dom%20Afonso%20Henriques%2013C%2C%202800-031%20Almada!5e0!3m2!1sen!2spt!4v1577206816265!5m2!1sen!2spt"
+						 frameborder="0" allowfullscreen="">
+					</iframe>
+			</section>
+
+			<!-- About -->
+			<section class="box features" id="about">
+				<header>
+					<h3>Sobre nós</h3>
+					<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+				</header>
+				<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare
+					mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in
+					adipiscing blandit tempus accumsan.</p>
+				<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare
+					mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in
+					adipiscing blandit tempus accumsan.</p>
+			</section>
+
+			<!-- Picture Slideshow -->
+			<section class="box special features" id="bikes">
+				<div class="features-row">
+					<section>
+						<h3>BMW 1250 GS</h3>
+						<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus
+							iaculis accumsan dolore magna aliquam veroeros.</p>
+					</section>
+					<section>
+						<h3>Yamaha FJR1300</h3>
+						<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus
+							iaculis accumsan dolore magna aliquam veroeros.</p>
+					</section>
+				</div>			
+			</section>
+
+			<!-- CTA/Email -->
+			<section id="cta">
+				<div class="box">
+					<header class="contacts">
+						<h3>Contactos</h3>
+						<ul class="icons actions stacked">
+							<li><a href="tel:00351900000000" class="icon icon-phone">(+351) 900 000 000</a></li>
+							<li><a href="mailto:geral@motoramtrip.pt?Subject=Olá" class="icon icon-mail">geral@motoramtrip.pt</a></li>
+						</ul>
+					</header>
+					<hr>
+					<header>
+						<h3>Envie-nos uma mensagem</h3>
+					</header>
+					<form method="post" action="#">
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-6 col-12-mobilep">
+								<input type="text" name="name" id="name" value="" placeholder="Nome" />
+							</div>
+							<div class="col-6 col-12-mobilep">
+								<input type="email" name="email" id="email" value="" placeholder="Email" />
+							</div>
+							<div class="col-12">
+								<input type="text" name="subject" id="subject" value="" placeholder="Assunto" />
+							</div>
+							<div class="col-12">
+								<textarea name="message" id="message" placeholder="A tua mensagem" rows="6"></textarea>
+							</div>
+							<div class="col-12">
+								<ul class="actions special">
+									<li><input type="submit" value="Enviar"/></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+					<header class="social-media"></header>
+				</div>
+			</section>
+
+		</section>
+
+		<!-- Footer/Credits -->
+		<footer id="footer">
+			<ul class="copyright">
+				<li>&copy; All rights reserved.</li><li>Made by: <a href="http://mariainesserra.com">Maria Inês Serra</a></li>
+			</ul>
+		</footer>
+
 	</body>
 </html>
