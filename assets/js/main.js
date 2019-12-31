@@ -7,6 +7,6 @@ function scrollDown(elementId) {
 	//remove the fixed header height
 	const y = t - h;
 	
-    window.scroll({ top: y, behavior: 'smooth' });
+    	window.scroll({ top: y, behavior: 'smooth' });
 }
 
