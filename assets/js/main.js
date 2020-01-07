@@ -22,8 +22,8 @@ function submitGoogleForm(form) {
             'Content-type',
             'application/x-www-form-urlencoded; charset=UTF-8'
         );
-
         xhr.send(data);
+        form.reset();
 
     } catch (e) {
         console.error(e);
