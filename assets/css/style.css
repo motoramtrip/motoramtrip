@@ -613,13 +613,11 @@
 	@media screen and (max-width: 1680px) {
 
 		/* Basic */
-
 		body, input, select, textarea {
 			font-size: 13pt;
 		}
 
 		/* Banner */
-
 		#banner {
 			padding: 10em 0 18em 0;
 		}
@@ -631,19 +629,16 @@
 	@media screen and (max-width: 1280px) {
 
 		/* Basic */
-
 		body, input, select, textarea {
 			font-size: 11pt;
 		}
 
 		/* Header */
-
 		.dropotron.level-0 {
 			font-size: 1em;
 		}
 
 		/* Banner */
-
 		#banner {
 			background-attachment: scroll;
 		}
@@ -659,10 +654,9 @@
 	@media screen and (max-width: 980px) {
 
 		/* Basic */
-
-			body, input, select, textarea {
-				font-size: 11pt;
-			}
+		body, input, select, textarea {
+			font-size: 11pt;
+		}
 
 	}
 
@@ -672,7 +666,6 @@
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
-
 		body, input, select, textarea {
 			font-size: 11pt;
 		}
@@ -688,7 +681,6 @@
 		}
 
 		/* Section/Article */
-
 		header.major {
 			padding: 1em;
 		}
@@ -703,7 +695,6 @@
 		}
 
 		/* Box */
-
 		.box {
 			overflow-x: hidden;
 			padding: 2em 2em !important;
@@ -745,7 +736,6 @@
 				}
 
 		/* Banner */
-
 		#banner {
 			padding: 6em 1em;
 		}
@@ -759,7 +749,6 @@
 			}
 
 		/* Main */
-
 		#main {
 			padding: 4em 0 0 0;
 		}
@@ -783,7 +772,6 @@
 		}
 
 		/* Footer */
-
 		#footer {
 			padding: 2em 0;
 		}
@@ -800,7 +788,6 @@
 	@media screen and (max-width: 480px) {
 
 		/* Basic */
-
 		html, body {
 			min-width: 320px;
 		}
@@ -810,13 +797,11 @@
 		}
 
 		/* Section/Article */
-
 		header.major {
 			padding: 0;
 		}
 
 		/* List */
-
 		ul.actions {
 			margin: 0 0 2em 0;
 		}
@@ -873,7 +858,6 @@
 				}
 
 		/* Box */
-
 		.box {
 			border-radius: 0;
 			box-shadow: none;
@@ -887,7 +871,6 @@
 			}
 
 		/* Banner */
-
 		#banner {
 			padding: 7em 1em;
 		}
@@ -901,7 +884,6 @@
 			}
 
 		/* Main */
-
 		#main > .box:first-child {
 			margin-top: 0;
 		}
