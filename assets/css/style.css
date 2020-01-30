@@ -858,6 +858,10 @@
 			font-size: 11pt;
 		}
 
+		header {
+			display: none;
+		}
+
 		/* Section/Article */
 		header.major {
 			padding: 0;
