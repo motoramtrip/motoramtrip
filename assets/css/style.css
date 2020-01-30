@@ -858,8 +858,37 @@
 			font-size: 11pt;
 		}
 
-		header {
+		#header {
 			display: none;
+		}
+
+		/* Section/Article */
+		header.major {
+			padding: 0;
+		}
+
+		/* List */
+		ul.actions {
+			margin: 0 0 2em 0;
+		}
+
+			ul.actions li {
+				display: block;
+				padding: 1em 0 0 0;
+				text-align: center;
+				width: 100%;
+			}
+	}
+
+	@media screen and (max-width: 480px) {
+
+		/* Basic */
+		html, body {
+			min-width: 320px;
+		}
+
+		body, input, select, textarea {
+			font-size: 11pt;
 		}
 
 		/* Section/Article */
