@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="pt">
 	<head>
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,6 +17,19 @@
 		<header id="header">
 			<h1><a href="index.html">MOTORAMTRIP</a></h1>
 			<nav id="nav">
+				<ul>
+					<li><a href="index.html">Topo</a></li>
+					<li style="width: 100px;">
+						<a class="icon icon-down-open" href="#">Links</a>
+						<ul class="dropdown">
+							<li><a onclick="scrollDown('location');">Localização</a></li>
+							<li><a onclick="scrollDown('about');">Sobre Nós</a></li>
+							<li><a onclick="scrollDown('bikes');">Motas</a></li>
+							<li><a onclick="scrollDown('cta');">Contactos</a></li>
+						</ul>
+					</li>
+					<li><a class="icon icon-globe" href="./eng/index.html">English</a></li>
+				</ul>
 			</nav>
 		</header>
 
@@ -34,7 +47,7 @@
 		<section id="main" class="container">
 
 			<!-- Google Location -->
-			<section class="box special">
+			<section class="box special" id="location">
 				<header>
 					<h3>Venha-nos visitar</h3>
 					<p>Av. Dom Afonso Henriques 13C, 2800-031 Almada </br>
@@ -42,7 +55,7 @@
 					</p>
 					<hr>
 				</header>
-					<iframe class="location"
+					<iframe class="google-location"
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3114.5892260670475!2d-9.15600168465598!3d38.68130747960445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1934f080c6904b%3A0xfff8dc56d9cf3a28!2sAv.%20Dom%20Afonso%20Henriques%2013C%2C%202800-031%20Almada!5e0!3m2!1sen!2spt!4v1577206816265!5m2!1sen!2spt"
 						 frameborder="0" allowfullscreen="">
 					</iframe>
