@@ -673,6 +673,12 @@
 			}
 
 
+/* Slideshow */
+.picture {
+	display:none;
+	width:100%;
+}
+
 /* Responsive */
 
 /* Wide */
