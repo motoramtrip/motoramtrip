@@ -623,6 +623,7 @@
 
 		.dropdown li {
 			padding: 0;
+			    line-height: 2.7em;
 		}
 
 			.dropdown li a {
@@ -668,6 +669,12 @@
 				width: 0.75em;
 				z-index: 0;
 			}
+
+/* Pictures */
+.catalogue {
+	max-width: 100%;
+	max-height: 175px;
+}
 
 
 /* Responsive */
