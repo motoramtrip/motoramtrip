@@ -52,3 +52,7 @@ function displaySuccess() {
         document.getElementById('contacts-succes').style.display = 'none'; 
     }, 3000);
 }
+
+function redirectToReservationsPage() {
+    window.location.href = "http://www.bookings.motoramtrip.pt";
+}

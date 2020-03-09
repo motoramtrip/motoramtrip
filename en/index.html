@@ -27,7 +27,7 @@
                             <li><a onclick="scrollDown('about');">About Us</a></li>
                             <li><a onclick="scrollDown('bikes');">Motorcycles</a></li>
                             <li><a onclick="scrollDown('cta');">Contacts</a></li>
-                            <li><a href="#">Rent a bike</a></li>
+                            <li><a onclick="redirectToReservationsPage();">Rent a bike</a></li>
                         </ul>
                     </li>
                     <li><a class="icon icon-globe" href="../">Português</a></li>
@@ -41,7 +41,7 @@
             <p>Motorcycle rental in Almada</p>
             <ul class="actions special">
                 <li><a class="button primary" onclick="scrollDown('about');">About us</a></li>
-                <li><a class="button" onclick="scrollDown('cta');">Contacts</a></li>
+                <li><a class="button" onclick="scrollDown('bikes');">Our bikes</a></li>
             </ul>
         </section>
     
@@ -91,6 +91,13 @@
                         <h3>Yamaha FJR1300</h3>
                         <p>Combines the performance of a sports bike with the comforts of a touring one. Great for long distance rides.</p>
                         <p> <i>Prices starting at 110€/day</i> </p>
+                    </section>
+                    <section>
+                        <div class="col-12">
+                            <ul class="actions special">
+                                <li><input type="submit" onclick="redirectToReservationsPage()" value="Rent now" /></li>
+                            </ul>
+                        </div>
                     </section>
                 </div>
             </section>
