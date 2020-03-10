@@ -54,5 +54,5 @@ function displaySuccess() {
 }
 
 function redirectToReservationsPage() {
-    window.location.href = "http://www.bookings.motoramtrip.pt";
+    window.location.href = "https://bookings.motoramtrip.pt";
 }
