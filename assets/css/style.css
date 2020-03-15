@@ -885,7 +885,10 @@
 			font-size: 11pt;
 		}
 
-		#header {
+		#header h1 {
+			display: none;
+		}
+		#header ul li:first-child {
 			display: none;
 		}
 
