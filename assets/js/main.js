@@ -34,6 +34,7 @@ function submitGoogleForm(form) {
         xhr.send(data);
         form.reset();
 
+        displaySuccess();
     } catch (e) {
         console.error(e);
     }
@@ -41,16 +42,13 @@ function submitGoogleForm(form) {
 }
 
 // slideshow
-
 var slideIndex = 1;
 window.onload = function () {
     changePicture(slideIndex);
 }
-
 function updateIndex(n) {
     changePicture(slideIndex += n);
 }
-
 function changePicture(currentIndex) {
     var i;
     var imgs = document.querySelectorAll(".picture");
@@ -61,4 +59,15 @@ function changePicture(currentIndex) {
         imgs[i].style.display = "none";
     }
     imgs[slideIndex - 1].style.display = "block";
+}
+function displaySuccess() {
+    document.getElementById('cta-message-header').style.display = 'none';
+    document.getElementById('contact-form').style.display = 'none';
+    document.getElementById('contacts-succes').style.display = 'block';
+
+    setTimeout(function () {
+        document.getElementById('cta-message-header').style.display = 'block';
+        document.getElementById('contact-form').style.display = 'block';
+        document.getElementById('contacts-succes').style.display = 'none'; 
+    }, 3000);
 }

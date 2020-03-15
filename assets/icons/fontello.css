@@ -12,7 +12,6 @@
 	line-height: 1;
 	font-weight: 400;
 	font-family: "fontello";
-	speak: none;
 	
 	display: inline-block;
 	text-decoration: inherit;
@@ -43,12 +42,17 @@
 
 .icon-globe:before { content: '\e800'; }
 .icon-phone:before { content: '\e801'; }
+.icon-link-ext:before { content: '\f08e'; }
+.icon-link-ext-alt:before { content: '\f14c'; }
 .icon-left-open:before { content: '\e802'; }
-.icon-down-open:before { content: '\e803'; }
-.icon-right-open:before { content: '\e804'; }
+.icon-right-open:before { content: '\e803'; }
+.icon-down-open:before { content: '\e804'; }
 .icon-up-open:before { content: '\e805'; }
 .icon-mail:before { content: '\e806'; }
 .icon-mail-alt:before { content: '\f0e0'; }
 .icon-facebook:before { content: '\f09a'; }
 .icon-facebook-squared:before { content: '\f308'; }
+.icon-instagram:before { content: '\f16d'; }
 .icon-spinner:before { content: '\f110'; }
+.icon-cc-visa:before { content: '\f1f0'; }
+.icon-cc-mastercard:before { content: '\f1f1'; }

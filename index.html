@@ -15,10 +15,10 @@
 	<body>
 		<!-- Header -->
 		<header id="header">
-			<h1><a href="index.html">MOTORAMTRIP</a></h1>
+			<h1><a href="/">MOTORAMTRIP</a></h1>
 			<nav id="nav">
 				<ul>
-					<li><a href="index.html">Topo</a></li>
+					<li><a href="#">Topo</a></li>
 					<li style="width: 6em;">
 						<a class="icon icon-down-open" href="#">Links</a>
 						<ul class="dropdown">
@@ -26,9 +26,10 @@
 							<li><a onclick="scrollDown('about');">Sobre Nós</a></li>
 							<li><a onclick="scrollDown('bikes');">Motas</a></li>
 							<li><a onclick="scrollDown('cta');">Contactos</a></li>
+							<li><a href="https://bookings.motoramtrip.pt">Alugue uma mota</a></li>
 						</ul>
 					</li>
-					<li><a class="icon icon-globe" href="./eng/index.html">English</a></li>
+					<li><a class="icon icon-globe" href="en">English</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -39,7 +40,7 @@
 			<p>Aluguer de motas em Almada</p>
 			<ul class="actions special">
 				<li><a class="button primary" onclick="scrollDown('about');">Sobre nós</a></li>
-				<li><a class="button" onclick="scrollDown('cta');" >Contactos</a></li>
+				<li><a class="button" onclick="scrollDown('bikes');">As nossas motas</a></li>
 			</ul>
 		</section>
 
@@ -51,7 +52,7 @@
 				<header>
 					<h3>Venha-nos visitar</h3>
 					<p>Av. Dom Afonso Henriques 13C, 2800-031 Almada </br>
-						Estamos abertos de segunda a sexta das 10:00 às 19:00
+						Estamos abertos de segunda a sexta das 9:30 às 18:30
 					</p>
 					<hr>
 				</header>
@@ -72,26 +73,40 @@
 				<p>Gostaríamos de fazer-lhes um convite pessoal para nos vir visitar na nossa loja e atrever-se a experimentar e reservar uma das nossas motas para dar uma volta.</p>
 			</section>
 
-			<!-- Picture Slideshow -->
+			<!-- Bikes Catalogue -->
 			<section class="box special features" id="bikes">
+				<div>
+					<ul class="actions special">
+						<li><input class="reservation-button" type="submit" style="min-width: 800px;" value="Reserve já"/><a href="https://bookings.motoramtrip.pt/en"></a></li>
+					</ul>
+				</div>
 				<div class="features-row">
 					<section>
 						<h3>BMW 1250 GS</h3>
 						<p>Precisamos apenas de três palavras para a descrever: Prestação, eficiência, controlo.</p>
+						<p> <i>Desde de 110€/dia</i> </p>
+						<img class="catalogue" src="./images/catalogue_bmw.jpg">
+					</section>
+					<section>
+						<h3>SYM SYMPHONY 125</h3>
+						<p>Elegante e sofisticada, a Symphony ST é ideal para viagens urbanas.</p>
+						<p> <i>Desde de 35€/dia</i> </p>
+						<img class="catalogue" src="./images/catalogue_sym.jpg">
 					</section>
 					<section>
 						<h3>Yamaha FJR1300</h3>
 						<p>Combina o desempenho de uma mota de desporto com os confortos de uma de turismo. Ótima para passeios de longa distância.</p>
+						<p> <i>Desde de 110€/dia</i> </p>
+						<img class="catalogue" src="./images/catalogue_yam.jpg">
+					</section>
+					<section>
+						
 					</section>
 				</div>
-				<div class="features-row">
-					<img class="picture" src="./images/BMW_GS_1250.jpg">
-					<img class="picture" src="./images/BMW_GS_1250.jpg">
-					<img class="picture" src="./images/BMW_GS_1250.jpg">
-					<div style="width:100%">
-						<div class="icon icon-left-open" onclick="updateIndex(-1)"></div>
-						<div class="icon icon-right-open" onclick="updateIndex(1)"></div>
-					</div>
+				<div>
+					<ul class="actions special">
+						<li><input class="reservation-button" type="submit" style="min-width: 800px;" value="Reserve já"/><a href="https://bookings.motoramtrip.pt/en"></a></li>
+					</ul>
 				</div>
 			</section>
 
@@ -104,21 +119,23 @@
 						<li><a href="https://www.facebook.com/Motoramtrip-103204874564855" class="icon icon-facebook-squared">Motoramtrip</a></li>
 						<li><a href="mailto:geral@motoramtrip.pt?Subject=Olá" class="icon icon-mail">geral@motoramtrip.pt</a></li>
 					</ul>
+					<h3 style="margin-block-start: 1em;">Siga-nos nas redes sociais</h3>
+					<ul class="icons actions stacked" style="margin-block-start: 0em;">
+						<li><a href="https://www.facebook.com/Motoramtrip-103204874564855" class="icon icon-facebook-squared"></a></li>
+						<li><a href="https://www.instagram.com/motoramtrip/" class="icon icon-instagram"></a></li>
+					</ul>
 				</header>
 				<hr>
-				<header>
+				<header id="cta-message-header">
 					<h3>Envie-nos uma mensagem</h3>
 				</header>
-				<form method="post" action="https://docs.google.com/forms/d/1AGvTYSwo8pFAAEIU5yARyfypfy8Gglo9HAaFzaX6blM" onsubmit="return submitGoogleForm(this);">
+				<form id="contact-form" method="post" action="https://docs.google.com/forms/d/1AGvTYSwo8pFAAEIU5yARyfypfy8Gglo9HAaFzaX6blM" onsubmit="return submitGoogleForm(this);">
 					<div class="row gtr-50 gtr-uniform">
 						<div class="col-6 col-12-mobilep">
-							<input type="text" name="entry.1830968992" id="name" value="" placeholder="Nome" />
+							<input type="text" name="entry.1830968992" id="name" value="" placeholder="Nome" required />
 						</div>
 						<div class="col-6 col-12-mobilep">
-							<input type="email" name="entry.1454490488" id="email" value="" placeholder="Email" />
-						</div>
-						<div class="col-12">
-							<input type="text" name="entry.877073675" id="subject" value="" placeholder="Assunto" />
+							<input type="email" name="entry.1454490488" id="email" value="" placeholder="Email" required />
 						</div>
 						<div class="col-12">
 							<textarea name="entry.1092297496" id="message" placeholder="A tua mensagem" rows="6"></textarea>
@@ -130,6 +147,9 @@
 						</div>
 					</div>
 				</form>
+				<header id="contacts-succes" style="text-align: center; display: none;">
+					<h3>Obrigada!<br> Entraremos em contacto consigo assim que possível. </h3>
+				</header>
 			</section>
 
 		</section>

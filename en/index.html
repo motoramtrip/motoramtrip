@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="google-site-verification" content="OrTmXHP4n31nc6LgykPq175vDuwQqNPrz4qzECvyYJY" />
         <title>MOTORAMTRIP</title>
-        <meta name="description" content="MOTORAMTRIP - Motorcycle rental in Almada">
+        <meta name="description" content="MOTORAMTRIP - Rent a bike">
         <link rel="stylesheet" href="../assets/css/style.css">
         <link rel="stylesheet" href="../assets/icons/fontello.css">
         <link rel="icon" type="image/x-icon" href="../assets/icons/favicon.ico">
@@ -16,10 +16,10 @@
     <body>
         <!-- Header -->
         <header id="header">
-            <h1><a href="index.html">MOTORAMTRIP</a></h1>
+            <h1><a href="./">MOTORAMTRIP</a></h1>
             <nav id="nav">
                 <ul>
-                    <li><a href="index.html">Top</a></li>
+                    <li><a href="#">Top</a></li>
                     <li style="width: 6em;">
                         <a class="icon icon-down-open" href="#">Links</a>
                         <ul class="dropdown">
@@ -27,9 +27,10 @@
                             <li><a onclick="scrollDown('about');">About Us</a></li>
                             <li><a onclick="scrollDown('bikes');">Motorcycles</a></li>
                             <li><a onclick="scrollDown('cta');">Contacts</a></li>
+                            <li><a href="https://bookings.motoramtrip.pt/en">Rent a bike</a></li>
                         </ul>
                     </li>
-                    <li><a class="icon icon-globe" href="../index.html">Português</a></li>
+                    <li><a class="icon icon-globe" href="../">Português</a></li>
                 </ul>
             </nav>
         </header>
@@ -40,7 +41,7 @@
             <p>Motorcycle rental in Almada</p>
             <ul class="actions special">
                 <li><a class="button primary" onclick="scrollDown('about');">About us</a></li>
-                <li><a class="button" onclick="scrollDown('cta');">Contacts</a></li>
+                <li><a class="button" onclick="scrollDown('bikes');">Our bikes</a></li>
             </ul>
         </section>
     
@@ -52,7 +53,7 @@
                 <header>
                     <h3>Come visit us</h3>
                     <p>Av. Dom Afonso Henriques 13C, 2800-031 Almada </br>
-                        We are open Monday to Friday from 10:00 until 19:00
+                        We are open Monday to Friday from 09:30 until 18:30
                     </p>
                     <hr>
                 </header>
@@ -73,26 +74,39 @@
                 <p>We would like to personally invite you to come and visit us at our store. Do you dare to try and rent one of out great bikes and take her out for a ride?</p>
             </section>
     
-            <!-- Picture Slideshow -->
+            <!-- Bikes Catalogue -->
             <section class="box special features" id="bikes">
+                <div class="col-10">
+                    <ul class="actions special">
+                        <li><input class="reservation-button" style="min-width: 800px;" type="submit" value="Rent a bike"/><a href="https://bookings.motoramtrip.pt/en"></a></li>
+                    </ul>
+                </div>
                 <div class="features-row">
                     <section>
                         <h3>BMW 1250 GS</h3>
                         <p>We only need three words to describe it: Performance, efficiency, control.</p>
+                        <p> <i>Prices starting at 110€/day</i> </p>
+                        <img class="catalogue" src="./../images/catalogue_bmw.jpg">
+                    </section>
+                    <section>
+                        <h3>SYM SYMPHONY 125</h3>
+                        <p>Elegant and sophisticated, this scooter is perfect for urban trips.</p>
+                        <p> <i>Prices starting at 35€/day</i> </p>
+                        <img class="catalogue" src="./../images/catalogue_sym.jpg">
                     </section>
                     <section>
                         <h3>Yamaha FJR1300</h3>
                         <p>Combines the performance of a sports bike with the comforts of a touring one. Great for long distance rides.</p>
+                        <p> <i>Prices starting at 110€/day</i> </p>
+                        <img class="catalogue" src="./../images/catalogue_yam.jpg">
+                    </section>
+                    <section>            
                     </section>
                 </div>
-                <div class="features-row">
-                    <img class="picture" src="../images/BMW_GS_1250.jpg">
-                    <img class="picture" src="../images/BMW_GS_1250.jpg">
-                    <img class="picture" src="../images/BMW_GS_1250.jpg">
-                    <div style="width:100%">
-                        <div class="icon icon-left-open" onclick="updateIndex(-1)"></div>
-                        <div class="icon icon-right-open" onclick="updateIndex(1)"></div>
-                    </div>
+                <div>
+                    <ul class="actions special">
+                        <li><input class="reservation-button" style="min-width: 800px;" type="submit" value="Rent a bike" /><a href="https://bookings.motoramtrip.pt/en"></a></li>
+                    </ul>
                 </div>
             </section>
     
@@ -105,22 +119,24 @@
                         <li><a href="tel:351926120532" class="icon icon-phone">(+351) 926 120 532</a></li>
                         <li><a href="mailto:geral@motoramtrip.pt?Subject=Olá" class="icon icon-mail">geral@motoramtrip.pt</a></li>
                     </ul>
+                    <h3 style="margin-block-start: 1em;">Follow us on social media</h3>
+                    <ul class="icons actions stacked" style="margin-block-start: 0em;">
+                        <li><a href="https://www.facebook.com/Motoramtrip-103204874564855" class="icon icon-facebook-squared"></a></li>
+                        <li><a href="https://www.instagram.com/motoramtrip/" class="icon icon-instagram"></a></li>
+                    </ul>
                 </header>
                 <hr>
-                <header>
+                <header  id="cta-message-header">
                     <h3>Send us a message</h3>
                 </header>
-                <form method="post" action="https://docs.google.com/forms/d/1AGvTYSwo8pFAAEIU5yARyfypfy8Gglo9HAaFzaX6blM"
+                <form method="post" id="contact-form" action="https://docs.google.com/forms/d/1AGvTYSwo8pFAAEIU5yARyfypfy8Gglo9HAaFzaX6blM"
                     onsubmit="return submitGoogleForm(this);">
                     <div class="row gtr-50 gtr-uniform">
                         <div class="col-6 col-12-mobilep">
-                            <input type="text" name="entry.1830968992" id="name" value="" placeholder="Name" />
+                            <input type="text" name="entry.1830968992" id="name" value="" placeholder="Name" required />
                         </div>
                         <div class="col-6 col-12-mobilep">
-                            <input type="email" name="entry.1454490488" id="email" value="" placeholder="Email" />
-                        </div>
-                        <div class="col-12">
-                            <input type="text" name="entry.877073675" id="subject" value="" placeholder="Subject" />
+                            <input type="email" name="entry.1454490488" id="email" value="" placeholder="Email" required />
                         </div>
                         <div class="col-12">
                             <textarea name="entry.1092297496" id="message" placeholder="Your message" rows="6"></textarea>
@@ -132,7 +148,9 @@
                         </div>
                     </div>
                 </form>
-                <header class="social-media"></header>
+                <header id="contacts-succes" style="text-align: center; display: none;">
+                    <h3>Thank you! <br> We will get back to you as soon as we can. </h3>
+                </header>
             </section>
     
         </section>
