@@ -42,7 +42,7 @@ function submitGoogleForm(form) {
 }
 
 // slideshow
-var slideIndex = 1;
+var slideIndex = Math.floor(Math.random() * 5);
 window.onload = function () {
     changePicture(slideIndex);
 }
