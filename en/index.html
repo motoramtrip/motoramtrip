@@ -21,7 +21,7 @@
                 <ul>
                     <li><a href="#">Top</a></li>
                     <li style="width: 6em;">
-                        <a class="icon icon-down-open" href="#">Links</a>
+                        <a class="icon icon-down-open">Links</a>
                         <ul class="dropdown">
                             <li><a onclick="scrollDown('location');">Location</a></li>
                             <li><a onclick="scrollDown('about');">About Us</a></li>
@@ -72,6 +72,17 @@
                 <p>We are located in Almada, close to the São João Batista square since the start of 2020. We have a vast stock of motorcycles and scooters waitng for you.</p>
                 <p>Lovers of long rides and adventure, we decided it was time to share our passion with the general public. So that our clients could also live out the enthusiasm and energy of this activity.</p>
                 <p>We would like to personally invite you to come and visit us at our store. Do you dare to try and rent one of out great bikes and take her out for a ride?</p>
+                <div class="features-row">
+					<img class="picture" src="./../images/store_bike_bmw.jpg">
+					<img class="picture" src="./../images/store_outside.jpg">
+					<img class="picture" src="./../images/store_outside_2.jpg">
+					<img class="picture" src="./../images/store_inside.jpg">
+					<img class="picture" src="./../images/store_bike_yam.jpg">
+					<div style="width:100%">
+						<div class="icon icon-left-open" onclick="updateIndex(-1)"></div>
+						<div class="icon icon-right-open" onclick="updateIndex(1)"></div>
+					</div>
+				</div>
             </section>
     
             <!-- Bikes Catalogue -->
@@ -107,6 +118,9 @@
                     <ul class="actions special">
                         <li><input class="reservation-button" style="min-width: 800px;" type="submit" value="Rent a bike" /><a href="https://bookings.motoramtrip.pt/en"></a></li>
                     </ul>
+                </ul>
+                    <span>We accept: </span> <span class="icon icon-cc-mastercard"></span> <span class="icon icon-cc-visa"></span>
+                </ul>
                 </div>
             </section>
     
@@ -126,7 +140,7 @@
                     </ul>
                 </header>
                 <hr>
-                <header  id="cta-message-header">
+                <header id="cta-message-header">
                     <h3>Send us a message</h3>
                 </header>
                 <form method="post" id="contact-form" action="https://docs.google.com/forms/d/1AGvTYSwo8pFAAEIU5yARyfypfy8Gglo9HAaFzaX6blM"

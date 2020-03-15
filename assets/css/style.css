@@ -434,7 +434,9 @@
 						width: 2px;
 					}
 
-
+			.box.features .features-row:first-child {
+				border-top: 0;
+			}
 
 /* Actions */
 
@@ -677,6 +679,16 @@
 	}
 
 
+/* Slideshow */
+.picture {
+	display:none;
+	width:100%;
+}
+
+/* mini-hack */
+#about .icon-left-open {color:white;cursor: pointer;position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+#about .icon-right-open {color:white;cursor: pointer;position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+
 /* Responsive */
 
 /* Wide */
@@ -873,7 +885,10 @@
 			font-size: 11pt;
 		}
 
-		#header {
+		#header h1 {
+			display: none;
+		}
+		#header ul li:first-child {
 			display: none;
 		}
 

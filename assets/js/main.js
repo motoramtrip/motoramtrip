@@ -6,7 +6,7 @@ function scrollDown(elementId) {
 
 // header backgroung toggle
 window.onscroll = function () {
-    if (window.pageYOffset > 130 ) {
+    if (window.pageYOffset > 130 || screen.width <= 480 ) {
         document.getElementById("header").style.background = "#444";
     } else {
         document.getElementById("header").style.background = "none";
@@ -41,6 +41,25 @@ function submitGoogleForm(form) {
     return false;
 }
 
+// slideshow
+var slideIndex = Math.floor(Math.random() * 5);
+window.onload = function () {
+    changePicture(slideIndex);
+}
+function updateIndex(n) {
+    changePicture(slideIndex += n);
+}
+function changePicture(currentIndex) {
+    var i;
+    var imgs = document.querySelectorAll(".picture");
+
+    if (currentIndex > imgs.length) { slideIndex = 1 }
+    if (currentIndex < 1) { slideIndex = imgs.length }
+    for (i = 0; i < imgs.length; i++) {
+        imgs[i].style.display = "none";
+    }
+    imgs[slideIndex - 1].style.display = "block";
+}
 function displaySuccess() {
     document.getElementById('cta-message-header').style.display = 'none';
     document.getElementById('contact-form').style.display = 'none';
