@@ -137,7 +137,7 @@
 
 	#banner {
 		background-attachment: scroll, fixed;
-		background-image: url("./images/overlay.png"), url("../../images/BMW_GS_1250.jpg");
+		background-image: url("./images/overlay.png");
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
