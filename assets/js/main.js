@@ -53,7 +53,7 @@ function submitGoogleForm(form) {
 var slideIndex = Math.floor(Math.random() * 5);
 window.onload = function () {
     changePicture(slideIndex);
-    this.randomHeader();
+    //this.randomHeader();
 }
 function updateIndex(n) {
     changePicture(slideIndex += n);
