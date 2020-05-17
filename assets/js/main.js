@@ -53,7 +53,7 @@ function submitGoogleForm(form) {
 var slideIndex = Math.floor(Math.random() * 5);
 window.onload = function () {
     changePicture(slideIndex);
-    //this.randomHeader();
+    this.randomPicture();
 }
 function updateIndex(n) {
     changePicture(slideIndex += n);
@@ -81,7 +81,11 @@ function displaySuccess() {
     }, 3000);
 }
 
-function randomHeader() {
-	var random = Math.floor(Math.random() * instagram.length);
-	document.getElementById("banner").style.backgroundImage = `url(${instagram[random]}`; 
+function randomPicture() {
+    var random = Math.floor(Math.random() * instagram.length);
+    var insta_slide = document.getElementById('instagram-slide');
+
+    insta_slide.src = instagram[random]; 
+    insta_slide.style.display = "block";
+    insta_slide.style.border = "groove";
 }
