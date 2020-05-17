@@ -15,9 +15,9 @@ function scrollDown(elementId) {
 // header backgroung toggle
 window.onscroll = function () {
     if (window.pageYOffset > 130 || screen.width <= 480 ) {
-        document.getElementById("header").style.background = "#444";
+        document.getElementById('header').style.background = '#444';
     } else {
-        document.getElementById("header").style.background = "none";
+        document.getElementById('header').style.background = 'none';
     }
 }
 
@@ -60,14 +60,13 @@ function updateIndex(n) {
 }
 function changePicture(currentIndex) {
     var i;
-    var imgs = document.querySelectorAll(".picture");
-
+    var imgs = document.querySelectorAll('.picture');
     if (currentIndex > imgs.length) { slideIndex = 1 }
     if (currentIndex < 1) { slideIndex = imgs.length }
     for (i = 0; i < imgs.length; i++) {
-        imgs[i].style.display = "none";
+        imgs[i].style.display = 'none';
     }
-    imgs[slideIndex - 1].style.display = "block";
+    imgs[slideIndex - 1].style.display = 'block';
 }
 function displaySuccess() {
     document.getElementById('cta-message-header').style.display = 'none';
@@ -86,6 +85,7 @@ function randomPicture() {
     var insta_slide = document.getElementById('instagram-slide');
 
     insta_slide.src = instagram[random]; 
-    insta_slide.style.display = "block";
-    insta_slide.style.border = "groove";
+    insta_slide.style.display = 'block';
+    insta_slide.style.border = 'groove';
+    insta_slide.style.width = '100%';
 }
