@@ -12,14 +12,6 @@ function scrollDown(elementId) {
     window.scroll({ top: y, behavior: 'smooth' });
 }
 
-// header backgroung toggle
-window.onscroll = function () {
-    if (window.pageYOffset > 130 || screen.width <= 480 ) {
-        document.getElementById('header').style.background = '#444';
-    } else {
-        document.getElementById('header').style.background = 'none';
-    }
-}
 
 function submitGoogleForm(form) {
     try {
