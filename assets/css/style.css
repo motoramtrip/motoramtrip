@@ -667,11 +667,19 @@
 		max-height: 175px;
 	}
 
-
 /* Slideshow */
-.picture {
-	display:none;
-	width:100%;
+	.picture {
+		display:none;
+		width:100%;
+	}
+
+/* Bikes Titles */
+
+#bikes h3 {
+	color: white;
+    background: #ee1d23;
+    margin-right: 15%;
+    margin-left: 15%;
 }
 
 /* mini-hack */
