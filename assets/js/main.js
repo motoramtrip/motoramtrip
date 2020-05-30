@@ -78,6 +78,5 @@ function randomPicture() {
 
     insta_slide.src = instagram[random]; 
     insta_slide.style.display = 'block';
-    insta_slide.style.border = 'groove';
     insta_slide.style.width = '100%';
 }

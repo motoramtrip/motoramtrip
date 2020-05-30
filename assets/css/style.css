@@ -138,7 +138,7 @@
 
 	#banner {
 		background-attachment: scroll, fixed;
-		background-image: url("./images/overlay.png"), url("../../images/BMW_GS_1250.jpg");
+		background-image: url("./images/overlay.png"), url("../../images/20200308_172742.jpg");
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -184,8 +184,13 @@
 
 			#banner input[type="button"].primary,
 			#banner .button.primary {
+				color: #ee1d23;
 				background: #fff;
-				color: #666 !important;
+			}
+			#banner input[type="button"].primary:hover,
+			#banner .button.primary:hover {
+				color: #fff;
+				background: #ee1d23;
 			}
 
 /* Titles and Text */
