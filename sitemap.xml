@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.motoramtrip.pt/</loc>
+  <lastmod>2020-08-20T14:57:39+00:00</lastmod>
+    <priority>1.00</priority>
+</url>
+
+<url>
+  <loc>https://bookings.motoramtrip.pt/pt</loc>
+  <lastmod>2020-08-27T15:32:36+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://bookings.motoramtrip.pt/pt/frota</loc>
+  <lastmod>2020-08-27T15:32:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bookings.motoramtrip.pt/pt/onde-estamos</loc>
+  <lastmod>2020-08-27T15:32:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bookings.motoramtrip.pt/pt/quem-somos</loc>
+  <lastmod>2020-08-27T15:32:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bookings.motoramtrip.pt/pt/contactos</loc>
+  <lastmod>2020-08-27T15:32:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bookings.motoramtrip.pt/pt/account</loc>
+  <lastmod>2020-08-27T15:32:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bookings.motoramtrip.pt/pt/faqs</loc>
+  <lastmod>2020-08-27T15:32:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bookings.motoramtrip.pt/pt/termos-e-condicoes-gerais</loc>
+  <lastmod>2020-08-27T15:32:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bookings.motoramtrip.pt/pt/politica-de-privacidade</loc>
+  <lastmod>2020-08-27T15:32:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bookings.motoramtrip.pt/pt/termos-de-uso</loc>
+  <lastmod>2020-08-27T15:32:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bookings.motoramtrip.pt/pt/frota/touring/4</loc>
+  <lastmod>2020-08-27T15:32:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bookings.motoramtrip.pt/pt/frota/roadster/5</loc>
+  <lastmod>2020-08-27T15:32:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bookings.motoramtrip.pt/pt/frota/scooter/6</loc>
+  <lastmod>2020-08-27T15:32:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bookings.motoramtrip.pt/pt/account/partner/recovery</loc>
+  <lastmod>2020-08-27T15:32:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://bookings.motoramtrip.pt/pt/account/password-recovery</loc>
+  <lastmod>2020-08-27T15:32:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+</urlset>
